@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(123, 135, 172);
+  padding: 2%;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+
+main {
+  padding-top: 5%;
+  background-color: rgb(180, 180, 219);
+}
+
+img {
+  border-radius: 10%;
+
+}
+.gallery {
+  display: contents;
+}
+
+.photo {
+  flex: 1;
+  /* distribui espaço igualmente entre os elementos */
+  margin-right: 10px;
+  /* espaço entre os elementos */
+  box-sizing: border-box;
+  /* inclui a largura da borda e do preenchimento no total da largura */
+
+}
+
+figcaption {
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+}
+
+.cursos {
+  font-weight: bold;
+}
+
+/* body{
+  background-color: rgb(230, 158, 25);
+  background-image: url(https://github.com/GilsonRavaiani/gilsonravaiani/assets/101072367/27371300-bf15-4827-bd0d-c1ff5da2134e);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+}
